@@ -4,3 +4,9 @@
   functions = "netlify/functions"
 [functions]
   node_bundler = "esbuild"
+
+# Makes /privacy, /terms, /refund work on refresh
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

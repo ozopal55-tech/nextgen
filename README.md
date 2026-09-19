@@ -26,3 +26,9 @@ function doPost(e) {
 
 ## Client must provide
 Logo, real parent reviews, fee details (edit `FEES` in src/App.jsx), final service areas, working hours, privacy policy and terms text.
+
+## Pages and editing
+- `/` home, `/privacy`, `/terms`, `/refund` (sample text in `src/pages/Legal.jsx`; client should review before going live).
+- `src/config.js`: phone, email, Instagram, nav and footer links (header and footer update everywhere).
+- `src/pages/Home.jsx`: STATS, REVIEWS, FEES, PROGRAMS are placeholders. Replace with real numbers, reviews and fees.
+- Never commit `node_modules` (it is in `.gitignore`).
